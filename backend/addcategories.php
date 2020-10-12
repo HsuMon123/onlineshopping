@@ -16,7 +16,7 @@
 
 
 	$sql = "INSERT INTO categories(name,logo)
-			VALUES(:categorie_name,:categorie_logo)"; // behind the VALES ==> label pay lite tal in the VALUES
+			VALUES(:category_name,:category_logo)"; // behind the VALES ==> label pay lite tal in the VALUES
 
 
 		// sql ko check or prepare
@@ -26,8 +26,8 @@
 	// Data ko "bindParam " loat p htae
 
 	
-	$stmt ->bindParam('categorie_name',$name);
-	$stmt ->bindParam('categorie_logo',$fullpath);
+	$stmt ->bindParam('category_name',$name);
+	$stmt ->bindParam('category_logo',$fullpath);
 	
 
 	// execute() loat mha data ka insert mhar

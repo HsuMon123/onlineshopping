@@ -52,7 +52,7 @@
         						// var_dump($items);
 
         						$j=1;
-        						foreach ($subcategories as $subcategorie) {
+        						foreach ($subcategories as $subcategory) {
         							// var_dump($items);     						
 
         					 ?>
@@ -61,12 +61,12 @@
         					 <tr>
         					 	
         					 	<td><?php echo $j++; ?></td>
-        					 	<td><?php echo $subcategorie['name']; ?></td>
+        					 	<td><?php echo $subcategory['name']; ?></td>
         					 
         					 	<td>
         					 		<a href="#" class="btn btn-outline-primary btn-sm">Detail</a>
         					 		<a href="#" class="btn btn-outline-warning btn-sm">Edit</a>
-        					 		<a href="#" class="btn btn-outline-danger btn-sm">Delete</a>
+        					 		<a href="subcategories_delete.php?id=<?php echo $subcategory['id'];?>"   onclick="return confirm('Delete this?');" class="btn btn-outline-danger btn-sm">Delete</a>
         					 	</td>
         					 </tr>
 

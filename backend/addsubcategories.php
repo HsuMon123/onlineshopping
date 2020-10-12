@@ -11,7 +11,7 @@
 
 
 	$sql = "INSERT INTO subcategories(name,category_id)
-			VALUES(:subcategorie_name,:subcategorie_category)"; // behind the VALES ==> label pay lite tal in the VALUES
+			VALUES(:subcategory_name,:subcategory_category)"; // behind the VALES ==> label pay lite tal in the VALUES
 
 
 		// sql ko check or prepare
@@ -21,9 +21,9 @@
 	// Data ko "bindParam " loat p htae
 
 
-	$stmt ->bindParam('subcategorie_name',$name);
+	$stmt ->bindParam('subcategory_name',$name);
 
-	$stmt ->bindParam('subcategorie_category',$category);
+	$stmt ->bindParam('subcategory_category',$category);
 
 	// execute() loat mha data ka insert mhar
 
