@@ -66,6 +66,19 @@
             <span>Items List</span></a>
           </li>
 
+          <li class="nav-item">
+          <a class="nav-link" href="order_list.php">
+           <i class="fas fa-clipboard-list"></i>
+            <span>Orders List</span></a>
+          </li>
+
+
+          <li class="nav-item">
+          <a class="nav-link" href="confirm_lsit.php">
+           <i class="fas fa-clipboard-list"></i>
+            <span>Confirm List</span></a>
+          </li>
+
         <!-- Nav Item - Pages Collapse Menu -->
         <li class="nav-item">
           <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
